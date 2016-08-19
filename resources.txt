@@ -4,6 +4,12 @@ http://installrails.com/
 
 
 
+Rails Guides
+---------------------
+http://guides.rubyonrails.org/
+
+
+
 Additional Resources
 ---------------------
 https://onemonth.com/courses/one-month-rails?utm_source=installrails&var=b

@@ -10,5 +10,5 @@ rvm install 2.3.1
 # Set a new Default Ruby Version
 rvm use 2.3.1 --default
 
-#Create new rails project
+#Create new rails project with name sample_app
 rails new sample_app
