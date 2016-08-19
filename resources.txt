@@ -1,3 +1,9 @@
 Install Rails
 ---------------------
 http://installrails.com/
+
+
+
+Additional Resources
+---------------------
+https://onemonth.com/courses/one-month-rails?utm_source=installrails&var=b
