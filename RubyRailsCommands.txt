@@ -1,0 +1,11 @@
+# Start rails server on Cloud9
+rails server -b $IP -p $PORT
+
+# List all installed Ruby versions
+rvm list
+
+# Install a new Default Ruby Version
+rvm install 2.3.1
+
+# Set a new Default Ruby Version
+rvm use 2.3.1 --default
