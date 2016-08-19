@@ -1,0 +1,8 @@
+# Install XCode Command Line Tools
+xcode-select --install
+
+# Get Version of XCode Command Line Tools
+xcode-select --version
+
+# Get Path Where XCode Command Line Tools are Installed
+xcode-select --print-path
