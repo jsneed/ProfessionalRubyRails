@@ -10,6 +10,20 @@ http://guides.rubyonrails.org/
 
 
 
+Ruby Guides
+---------------------
+https://www.ruby-lang.org/en/documentation/
+
+https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#ruby
+
+
+
+Servers
+---------------------
+http://puma.io/ - The default web server packaged with rails
+
+
+
 Additional Resources
 ---------------------
 https://onemonth.com/courses/one-month-rails?utm_source=installrails&var=b
