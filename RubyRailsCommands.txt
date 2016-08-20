@@ -1,6 +1,3 @@
-# Start rails server on Cloud9
-rails server -b $IP -p $PORT
-
 # List all installed Ruby versions
 rvm list
 
@@ -10,5 +7,21 @@ rvm install 2.3.1
 # Set a new Default Ruby Version
 rvm use 2.3.1 --default
 
+# Install Rails
+gem install rails --no-ri --no-rdoc
+
 #Create new rails project with name sample_app
 rails new sample_app
+
+# Start rails server on Cloud9
+rails server -b $IP -p $PORT
+
+# Start from project folder on regular machine
+bin/rails server
+
+# To create a new controller called "Welcome" with an action called "index"
+bin/rails generate controller Welcome index
+
+
+# To create a new model called article with 2 params
+bin/rails generate model Article title:string text:text
