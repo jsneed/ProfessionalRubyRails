@@ -1,0 +1,10 @@
+SQLite Commands
+
+# Use database called development in project/db folder from project main folder
+sqlite3 db/development.sqlite3
+
+# See all articles (just standard SQL)
+select * from articles;
+
+# Exit sqlite shell
+.exit
