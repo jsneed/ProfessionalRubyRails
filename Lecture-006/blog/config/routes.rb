@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   get 'welcome/index'
 
-  resources :articles
-  
+  resources :articles do
+      resources :comments
+  end
+
   # Tells the server which route to load at startup
   root 'welcome#index'
 
