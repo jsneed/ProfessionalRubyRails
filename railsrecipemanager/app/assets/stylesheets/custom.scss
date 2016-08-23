@@ -1,6 +1,7 @@
 $navbar-default-bg: #312312;
 $light-orange: #ff8c00;
 $navbar-default-color: $light-orange;
+$dark-grey: #777777;
 
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
@@ -52,7 +53,7 @@ h2 {
     margin-bottom: 30px;
     text-align: center;
     font-weight: normal;
-    color: #777777;
+    color: $dark-grey;
 }
 
 .left {
@@ -63,5 +64,44 @@ h2 {
 .footer {
     margin-top: 25px;
     border-top: 1px solid #EAEAEA;
-    color: #777777;
+    color: $dark-grey;
+}
+
+
+
+
+
+/* From http://bootsnipp.com/snippets/featured/bootstrap-outline-buttons */
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
 }
