@@ -22,6 +22,5 @@ bin/rails server
 # To create a new controller called "Welcome" with an action called "index"
 bin/rails generate controller Welcome index
 
-
 # To create a new model called article with 2 params
 bin/rails generate model Article title:string text:text

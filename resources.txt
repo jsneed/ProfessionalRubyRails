@@ -7,6 +7,8 @@ http://installrails.com/
 Rails Guides
 ---------------------
 http://guides.rubyonrails.org/
+http://guides.rubyonrails.org/routing.html
+http://guides.rubyonrails.org/association_basics.html
 
 
 
