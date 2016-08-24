@@ -18,6 +18,9 @@ https://www.ruby-lang.org/en/documentation/
 
 https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#ruby
 
+https://learnrubythehardway.org/
+https://learnrubythehardway.org/book/
+
 
 
 Databases
