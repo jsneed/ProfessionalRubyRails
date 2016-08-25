@@ -1,0 +1,13 @@
+More Info At:   https://devcenter.heroku.com/start
+
+# Login to Heroku
+heroku login
+
+# Create an app on Heroku
+heroku create
+
+# Push the latest version of the code to heroku remote and deploy
+git push heroku master
+
+# Open the deployed website
+heroku open
