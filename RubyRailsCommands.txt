@@ -24,3 +24,18 @@ bin/rails generate controller Welcome index
 
 # To create a new model called article with 2 params
 bin/rails generate model Article title:string text:text
+
+# Install all gems in Gemfile
+bundle install
+
+# Install all gems in Gemfile except for Prod specific ones
+bundle install --without production
+
+# Migrate the database schema
+bin/rails db:migrate
+
+# Migrate the database schema for development environment
+bin/rails db:migrate RAILS_ENV=development
+
+# Create user table migration file - create_users is just the file name but rails infers that you ant to create a table
+rails generate migration create_users
