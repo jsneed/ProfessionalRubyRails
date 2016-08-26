@@ -16,7 +16,7 @@ body {
     float: left;
     font-size: 2em;
     color: #FFFFFF;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: -1px;
     padding-top: 9px;
     font-weight: bold;
@@ -67,8 +67,13 @@ h2 {
     color: $dark-grey;
 }
 
+.chef_info {
+    margin-top: 10px;
+}
 
-
+.gravatar {
+    border-radius: 10px;
+}
 
 
 /* From http://bootsnipp.com/snippets/featured/bootstrap-outline-buttons */
