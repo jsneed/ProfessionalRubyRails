@@ -1,0 +1,2 @@
+# Create a new model
+chef = Chef.create({name: "Jenna", email: "jenna@dispostable.com"})

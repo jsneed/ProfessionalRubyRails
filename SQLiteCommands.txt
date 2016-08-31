@@ -8,3 +8,6 @@ select * from articles;
 
 # Exit sqlite shell
 .exit
+
+# Get Date in Milliseconds
+SELECT strftime("%Y-%m-%d %H:%M:%f",'now');
